@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import './globals.css'
-import { Toaster } from 'sonner'
+import Providers from '@/components/providers'
 
 export const metadata: Metadata = {
   title: 'VIMS - Volunteer Information Management System',
@@ -18,8 +18,9 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body>
-        <main>{children}</main>
-        <Toaster />
+        <Providers>
+          <main>{children}</main>
+        </Providers>
       </body>
     </html>
   )

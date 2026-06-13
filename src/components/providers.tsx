@@ -1,16 +1,16 @@
-"use client";
+'use client'
 
-import { Toaster } from "sonner";
+import { Toaster } from 'sonner'
 
 export default function Providers({
   children,
 }: {
-  children: React.ReactNode;
+  children: React.ReactNode
 }) {
   return (
     <>
       {children}
       <Toaster />
     </>
-  );
+  )
 }
