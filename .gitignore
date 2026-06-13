@@ -1,0 +1,52 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+**/node_modules
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+.env.local
+.env.*.local
+
+# debug
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.swp
+*.swo
+
+# IDE
+.vscode
+.idea
+*.suo
+*.sln
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Prisma
+prisma/migrations
+prisma/dev.db
+
+# Local
+.next
+dist
+build
